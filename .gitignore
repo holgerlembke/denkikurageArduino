@@ -4,13 +4,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-info.txt
-notizen.txt
 # yeah. live is hard.
 *.cmd
 .vscode
-makeESPFMfGKdeflate
-examplesCopy
-htmlspielwiese
-sicherung
-!postbuild.cmd

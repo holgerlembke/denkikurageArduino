@@ -1,4 +1,4 @@
-`Denki Kurage` (ja: 電気くらげ, electric jellyfish)
+# `Denki Kurage` (ja: 電気くらげ, electric jellyfish)
 
 This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage).
 
