@@ -21,6 +21,6 @@ This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) tha
 
 <img src="./resources/cad.jpg">
 
-Keili(https://github.com/holgerlembke/OpenSCAD-Modelle/blob/main/denkikurage.scad)
+[Keili](https://github.com/holgerlembke/OpenSCAD-Modelle/blob/main/denkikurage.scad)
 
 
