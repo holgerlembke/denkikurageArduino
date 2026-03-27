@@ -5,11 +5,6 @@
 This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) that is compilable with the Arduino IDE.
 
 
-<video src="https://github.com/holgerlembke/denkikurageArduino/blob/main/resources/video.mp4" loop muted></video>
-
-<video src="https://raw.githubusercontent.com/holgerlembke/denkikurageArduino/refs/heads/main/resources/video.mp4" width="320" height="240" controls></video>
-
-
 
 
 ## Changes
