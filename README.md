@@ -28,4 +28,4 @@ ESP32-S3 Zero 4+2,"1.53 Inch round ST77916 qspi tft", Uhu Montage Ultra
 
 <img src="./resources/innen.jpg">
 
-The Zero has a strip of Kaptone tape at iss back. That is then glued to the base.
+The Zero has a strip of Kaptone tape at its back. That is then glued to the base. The base clips in, no screws.

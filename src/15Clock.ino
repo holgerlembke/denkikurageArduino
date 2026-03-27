@@ -59,6 +59,7 @@ void rtcupdate(void* parameter /**/) {
   configTzTime(ntpTimeZone, ntpSource);
 
   sntprtcsyncprocess_t lastsntprtcsyncprocess = sntprtcsyncprocess;
+  const TickType_t ticksDelay = 10000 / portTICK_PERIOD_MS;
 
   do {
     switch (sntprtcsyncprocess) {
@@ -67,15 +68,13 @@ void rtcupdate(void* parameter /**/) {
           if (WiFi.status() != WL_CONNECTED) {
             if (wifiMulti.run() != WL_CONNECTED) {
               Serial.println("WiFi: not connected");
-              vTaskDelay((10000 + random(10000)) / portTICK_PERIOD_MS);  // random delay
+              vTaskDelay((random(10000)) / portTICK_PERIOD_MS);  // random additional delay
             } else {
               Serial.print("IP: ");
               Serial.println(WiFi.localIP());
               sntp_restart();  // ??
               sntprtcsyncprocess = srspconnected;
             }
-          } else {
-            vTaskDelay(10000 / portTICK_PERIOD_MS);
           }
           break;
         }
@@ -84,22 +83,22 @@ void rtcupdate(void* parameter /**/) {
           Serial.println("Disconnected.");
           WiFi.disconnect(true);
           sntprtcsyncprocess = srspwaittime;
-          vTaskDelay(10000 / portTICK_PERIOD_MS);
           break;
         }
       case srspconnected:
       case srspwaittime:
         {
-          vTaskDelay(10000 / portTICK_PERIOD_MS);
           break;
         }
     }
+    vTaskDelay(ticksDelay);
 
+/** /
     if (lastsntprtcsyncprocess != sntprtcsyncprocess) {
       Serial.printf("sntprtcsyncprocess: %i -> %i\n", lastsntprtcsyncprocess, sntprtcsyncprocess);
       lastsntprtcsyncprocess = sntprtcsyncprocess;
     }
-
+/**/
     /**/
     UBaseType_t cwm = uxTaskGetStackHighWaterMark(NULL);
     if (cwm < lastwm) {
