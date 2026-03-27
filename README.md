@@ -6,7 +6,7 @@ This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) tha
 
 <video src="./resources/video.mp4" loop muted></video>
 
-To support more display types it uses Arduino_GFX_Library[https://github.com/moononournation/Arduino_GFX] from moononournation.
+To support more display types it uses [Arduino_GFX_Library](https://github.com/moononournation/Arduino_GFX) from moononournation.
 
 ## Changes
 * a "little" bit reorganization due to IDE compile process
