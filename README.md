@@ -4,6 +4,7 @@
 
 This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) that is compilable with the Arduino IDE.
 
+[![Watch the video](./resources/front.jpg)](https://github.com/holgerlembke/denkikurageArduino/blob/main/resources/video.mp4)
 
 <video src="https://github.com/holgerlembke/denkikurageArduino/blob/main/resources/video.mp4" loop muted></video>
 
