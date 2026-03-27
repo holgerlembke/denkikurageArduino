@@ -24,5 +24,7 @@ This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) tha
 
 ## the inside
 
+ESP32-S3 Zero 4+2 + "1.53 Inch round ST77916 qspi tft"
+
 <img src="./resources/innen.jpg">
 
