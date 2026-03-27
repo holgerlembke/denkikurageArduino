@@ -1,10 +1,21 @@
 # `Denki Kurage` (ja: 電気くらげ, electric jellyfish)
 
-This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage).
+<img src="./resources/front.jpg">
 
-## Changes:
-* a "little" bit reorganzation due to ide compile process and limitations
+This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) that is compilable with the Arduino IDE.
+
+To support more display types it uses Arduino_GFX_Library[https://github.com/moononournation/Arduino_GFX] from moononournation.
+
+## Changes
+* a "little" bit reorganization due to IDE compile process
 * moved to Arduino_GFX_Library because display is qspi
 * removed debug mode
-* "scalefactor" for zooming bigger/smaller
-* "biggerpixel" and "evenbiggerpixel" for particle size
+* "scalefactor" for zooming jellyfish bigger/smaller
+* "biggerparticles" and "evenbiggerparticles" for particle size
+* added a clock (because we all love clocks) 
+  Wifi for sync, only connected once a hour
+
+
+## Case
+
+Keili(https://github.com/holgerlembke/OpenSCAD-Modelle/blob/main/denkikurage.scad)
