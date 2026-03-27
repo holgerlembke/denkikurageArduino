@@ -8,7 +8,7 @@ This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) tha
 
 ## Changes
 * moved to [Arduino_GFX_Library](https://github.com/moononournation/Arduino_GFX) from moononournation because display is qspi
-(it has more display types,too)
+(it has more display types, too)
 * a "little" bit reorganization due to IDE compile process
 * removed debug mode
 * "scalefactor" for zooming jellyfish bigger/smaller
@@ -16,11 +16,13 @@ This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) tha
 * added a clock (because we all love clocks) 
   Wifi for sync, only connected once a hour
 
-
 ## Case
 
 <img src="./resources/cad.jpg">
 
 [Keili](https://github.com/holgerlembke/OpenSCAD-Modelle/blob/main/denkikurage.scad)
 
+## the inside
+
+<img src="./resources/innen.jpg">
 
