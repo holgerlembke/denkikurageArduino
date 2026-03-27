@@ -4,7 +4,7 @@
 
 This is a remix of [Denki Kurage](https://github.com/likeablob/denki-kurage) that is compilable with the Arduino IDE.
 
-<video src="https://github.com/user-attachments/assets/1f0c8e98-27a2-492e-a7ed-1c2e2f27417f"></video>
+<video src="https://github.com/user-attachments/assets/1f0c8e98-27a2-492e-a7ed-1c2e2f27417f" autoplay loop muted playsinline></video>
 
 ## Changes
 * to support more display types it uses [Arduino_GFX_Library](https://github.com/moononournation/Arduino_GFX) from moononournation
